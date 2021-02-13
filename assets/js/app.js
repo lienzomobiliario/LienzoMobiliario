@@ -4,6 +4,7 @@ var fullGalleryData = []
     .concat(archFurniture)
     .concat(spaceOptimization)
 
+
 $(window).on('load', () => {
     setFilters()
     Galleria.loadTheme('assets/lib/galleria/twelve/galleria.twelve.js');
