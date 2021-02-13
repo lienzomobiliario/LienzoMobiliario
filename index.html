@@ -434,7 +434,11 @@
                             </div>
                         </div>
                         <div class="col-sm-8">
-                            <form id="contactForm" role="form" method="post" action="php/contact.php">
+                            <form role="form" method="post" action="https://api.staticforms.xyz/submit">
+                                <input type="hidden" name="accessKey" value="2add9939-b295-4559-b7c6-f11c877b8c51">
+                                <input type="text" name="honeypot" style="display: none;">
+                                <input type="text" name="subject" value="Mensaje desde lienzomobiliario.com" style="display: none;">
+                                <input type="hidden" name="redirectTo" value="https://lienzomobiliario.com#contact?response=success">
                                 <div class="form-group">
                                     <label class="sr-only" for="name">Nombre</label>
                                     <input class="form-control" type="text" id="name" name="name" placeholder="Tu nombre*" required="required" data-validation-required-message="Por favor ingresa tu nombre." />
